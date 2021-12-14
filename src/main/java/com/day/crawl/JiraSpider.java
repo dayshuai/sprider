@@ -25,12 +25,12 @@ import cn.download.core.utils.FileUtil;
 
 public class JiraSpider {
 
-	public static String LOGIN_URL = "http://jira.chinatrc.com.cn/login.jsp";
+	public static String LOGIN_URL = "/login.jsp";
 	public static String USER_AGENT = "User-Agent";
 	public static String USER_AGENT_VALUE = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0";
 	static Map<String, String> cookies = new HashMap<String, String>();
-	public static String url = "http://jira.chinatrc.com.cn/browse/";
-	public static String baseUrl = "http://jira.chinatrc.com.cn";
+	public static String url = "/browse/";
+	public static String baseUrl = "";
 	public static String JSESSIONID = "1EC3EEA33CDD8A4E4F9305B09289CCFD";
 	public static String JIRAIDS = "TRS-8067";
 	public static String JIRACONTENTBASEPATH = "D:\\jira\\";
